@@ -1,0 +1,20 @@
+﻿Build started 9/12/2016 8:32:47 PM.
+     1>Project "D:\Shannon school stuff\example problems\hangman\hangman\hangman.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt hangman.cpp
+         hangman.cpp
+     1>d:\shannon school stuff\example problems\hangman\hangman\hangman.cpp(17): warning C4244: '=': conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>d:\shannon school stuff\example problems\hangman\hangman\hangman.cpp(33): warning C4018: '<': signed/unsigned mismatch
+     1>d:\shannon school stuff\example problems\hangman\hangman\hangman.cpp(39): warning C4018: '<': signed/unsigned mismatch
+     1>d:\shannon school stuff\example problems\hangman\hangman\hangman.cpp(59): warning C4018: '<': signed/unsigned mismatch
+     1>d:\shannon school stuff\example problems\hangman\hangman\hangman.cpp(81): warning C4018: '<': signed/unsigned mismatch
+     1>d:\shannon school stuff\example problems\hangman\hangman\hangman.cpp(91): warning C4018: '<': signed/unsigned mismatch
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Shannon school stuff\example problems\hangman\Debug\hangman.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\Shannon school stuff\example problems\hangman\Debug\hangman.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Shannon school stuff\example problems\hangman\Debug\hangman.lib" /MACHINE:X86 Debug\hangman.obj
+         Debug\main.obj
+         hangman.vcxproj -> D:\Shannon school stuff\example problems\hangman\Debug\hangman.exe
+     1>Done Building Project "D:\Shannon school stuff\example problems\hangman\hangman\hangman.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.94
